@@ -36,20 +36,25 @@ public class PauseMenu : MonoBehaviour
         GetComponent<Canvas>().enabled = false;
     }
 
-    public void Restart()
+    public void RestartLevel()
     {
         Time.timeScale = 1;
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
     }
 
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+
+    public void Settings()
+    {
+        SceneManager.LoadScene("Settings");
+    }
+
     public void LoadMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
-    }
-
-    public void QuitGame()
-    {
-        Application.Quit();
     }
 }
