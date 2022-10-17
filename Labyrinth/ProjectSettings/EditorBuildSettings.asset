@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level_0.unity
     guid: 01b89f4d71f1f8e4c956ac1675c40f4c
+  - enabled: 1
+    path: Assets/Scenes/TransitionTests.unity
+    guid: 7d4f2196c33fd7943ac974aa4af8413c
+  - enabled: 1
+    path: Assets/Scenes/TransitionTester.unity
+    guid: 0bed960944e55f346b9a29aaac5ba30a
   - enabled: 1
     path: Assets/Scenes/DieScreen.unity
     guid: 4c455bd11fb09534284d1f864ebb2012
