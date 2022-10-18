@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 331c0d5b838af8a4387585f2cd5f7b31
+guid: da4fa1fd99e3ba64abbabc78c4e1592a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hearts_0
+      name: Stamina_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75a9ded3ba4ef384f89af9da50cd2462
-      internalID: -245886202
+      spriteID: b0984c07f6542f844b9a86845f2ac6af
+      internalID: 1699417777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearts_1
+      name: Stamina_1
       rect:
         serializedVersion: 2
         x: 16
@@ -140,14 +140,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c692b792eb1ccf54f8527376a8442649
-      internalID: 1722935131
+      spriteID: 2929c8512b2430d4688e3fb5f3189735
+      internalID: -12108199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearts_2
+      name: Stamina_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47393e28000d1b94cb7bf7c20aec6c7e
+      internalID: 1809702056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamina_3
       rect:
         serializedVersion: 2
         x: 0
@@ -161,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccd6bf872a4ab7043a36508b4e134e57
-      internalID: 1743637989
+      spriteID: 570f8cb12e5eef14d884c8270308490c
+      internalID: 680750082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearts_3
+      name: Stamina_4
       rect:
         serializedVersion: 2
         x: 16
@@ -182,14 +203,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec14347cedc21d848a9d0a301cc66ccc
-      internalID: 1303275105
+      spriteID: f049fedb3adeacd4c93fe18d9bb3e4f7
+      internalID: -253029515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearts_4
+      name: Stamina_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7630802c4e31ef547a8220e164e46e13
+      internalID: 1559894050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stamina_6
       rect:
         serializedVersion: 2
         x: 0
@@ -203,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d26e67333b173341892c5baf3a3bd33
-      internalID: -259177897
+      spriteID: 65ba14ab834c4474fbcc0d7e4abf2abe
+      internalID: 290488697
       vertices: []
       indices: 
       edges: []
@@ -220,11 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hearts_3: 1303275105
-      Hearts_4: -259177897
-      Hearts_2: 1743637989
-      Hearts_0: -245886202
-      Hearts_1: 1722935131
+      Stamina_0: 1699417777
+      Stamina_5: 1559894050
+      Stamina_4: -253029515
+      Stamina_6: 290488697
+      Stamina_2: 1809702056
+      Stamina_3: 680750082
+      Stamina_1: -12108199
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
