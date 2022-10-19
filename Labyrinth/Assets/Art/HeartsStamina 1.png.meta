@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fe67363977425f6448327d90a8778120
+guid: 590b505581c82c94e8b2892856fc21ed
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HeartsStamina_0
+      name: HeartsStamina 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91323493bca0c4942b720699cf8cdcd9
-      internalID: 585554376
+      spriteID: 3ddd9b951f39bc84ba45749af24b1e01
+      internalID: -1636183602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeartsStamina_1
+      name: HeartsStamina 1_1
       rect:
         serializedVersion: 2
         x: 128
@@ -135,47 +135,19 @@ TextureImporter:
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 5, y: 59, z: 5, w: 59}
-      outline:
-      - - {x: -60, y: 6}
-        - {x: -62, y: 6}
-        - {x: -62, y: 4}
-        - {x: -62, y: -4}
-        - {x: -62, y: -6}
-        - {x: -60, y: -6}
-        - {x: 60, y: -6}
-        - {x: 62, y: -6}
-        - {x: 62, y: -4}
-        - {x: 62, y: 4}
-        - {x: 62, y: 6}
-        - {x: 60, y: 6}
-      - - {x: -60, y: -2}
-        - {x: -60, y: 2}
-        - {x: -58, y: 2}
-        - {x: -58, y: 4}
-        - {x: 58, y: 4}
-        - {x: 58, y: 2}
-        - {x: 60, y: 2}
-        - {x: 60, y: -2}
-        - {x: 58, y: -2}
-        - {x: 58, y: -4}
-        - {x: -58, y: -4}
-        - {x: -58, y: -2}
-      - - {x: 58, y: -2}
-        - {x: 58, y: -2}
-        - {x: 58, y: -2}
-        - {x: 58, y: -2}
+      border: {x: 4, y: 59, z: 4, w: 59}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f65c41d97f3e5f749aefca305261a78c
-      internalID: -955711700
+      spriteID: fa6cdb77133b2b840834a77f9a218f71
+      internalID: 77215499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeartsStamina_2
+      name: HeartsStamina 1_2
       rect:
         serializedVersion: 2
         x: 0
@@ -184,28 +156,19 @@ TextureImporter:
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6, y: 12}
-        - {x: -12, y: 8}
-        - {x: -12, y: 0}
-        - {x: 0, y: -12}
-        - {x: 2, y: -12}
-        - {x: 12, y: -2}
-        - {x: 12, y: 10}
-        - {x: 10, y: 12}
-        - {x: -2, y: 12}
+      border: {x: 51, y: 51, z: 51, w: 51}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fd2c2ba2bc88664d8fcc6ea91f59de8
-      internalID: 594150737
+      spriteID: 9297a399e35cbe546971dc9542024898
+      internalID: 468937665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeartsStamina_3
+      name: HeartsStamina 1_3
       rect:
         serializedVersion: 2
         x: 128
@@ -214,21 +177,13 @@ TextureImporter:
         height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -26, y: 14}
-        - {x: -32, y: 2}
-        - {x: -32, y: -2}
-        - {x: -32, y: -16}
-        - {x: -28, y: -16}
-        - {x: -12, y: 0}
-        - {x: -10, y: 10}
-        - {x: -10, y: 14}
+      border: {x: 31, y: 47, z: 73, w: 49}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd1b1fbab2f0d6440b7b94b1da024525
-      internalID: -235493054
+      spriteID: a6586e0d7767507499ba84a05ef0e9f9
+      internalID: 401512333
       vertices: []
       indices: 
       edges: []
@@ -244,10 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HeartsStamina_2: 594150737
-      HeartsStamina_1: -955711700
-      HeartsStamina_3: -235493054
-      HeartsStamina_0: 585554376
+      HeartsStamina 1_1: 77215499
+      HeartsStamina 1_0: -1636183602
+      HeartsStamina 1_2: 468937665
+      HeartsStamina 1_3: 401512333
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
