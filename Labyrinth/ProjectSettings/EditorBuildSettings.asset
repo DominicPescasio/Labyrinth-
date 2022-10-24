@@ -8,13 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/GameLevels/Level_0.unity
     guid: 01b89f4d71f1f8e4c956ac1675c40f4c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Testing/TransitionTests.unity
     guid: 7d4f2196c33fd7943ac974aa4af8413c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Testing/TransitionTester.unity
     guid: 0bed960944e55f346b9a29aaac5ba30a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UIScreens/DieScreen.unity
     guid: 4c455bd11fb09534284d1f864ebb2012
   - enabled: 1
@@ -32,10 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameLevels/Level_3.unity
     guid: 890515b0b3c37824fa82f00bdd8f0881
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UIScreens/WinScreen.unity
     guid: 6af34174fb002be46898ff6c928f9aae
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UIScreens/Credits.unity
     guid: 2f374f959d919614087de1f88181da87
   m_configObjects: {}
