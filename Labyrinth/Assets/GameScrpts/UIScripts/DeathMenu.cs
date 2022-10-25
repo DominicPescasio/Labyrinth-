@@ -20,7 +20,7 @@ public class DeathMenu : MonoBehaviour
     public void Retry()
     {
         Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene("Level_2");
     }
 
     public void MainMenu()

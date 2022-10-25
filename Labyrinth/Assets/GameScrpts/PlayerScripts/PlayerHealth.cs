@@ -5,25 +5,47 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
-    public int health = 4;
-    public Text healthText;
-   
+    public int maxHealth = 4;
+    public int currentHealth;
+    private PlayerHealth healthBar;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+    }
     // Update is called once per frame
     void Update()
     {
-        healthText.text = "Health: " + health;
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        string otherTag = collision.gameObject.tag;
-        if (otherTag == "Damage")
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            health--;
-            if (health <= 0)
-            {
-                Scene scene = SceneManager.GetActiveScene();
-                SceneManager.LoadScene(scene.name);
-            }
+            TakeDamage(1);
         }
+        
+        if (currentHealth <= 0)
+        {
+            SceneManager.LoadScene("DieScreen");
+        }
+    }
+  
+    public Slider slider;
+
+    public void SetMaxHealth(int health)
+    {
+        slider.maxValue = health;
+        slider.value = health;
+    }
+
+    public void SetHealth(int health)
+    {
+        slider.value = health;
+    }
+
+    void TakeDamage(int Damage)
+    {
+        currentHealth -= Damage;
+
+        healthBar.SetHealth(currentHealth);
     }
 }

@@ -4,29 +4,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     public void StartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void Settings()
+    public void Credits()
     {
-        SceneManager.LoadScene("Settings");
+        SceneManager.LoadScene("EndCredits");
     }
 
     public void Quit()
     {
         Application.Quit();
-    }
-
-    public void Back()
-    {
-
     }
 }
