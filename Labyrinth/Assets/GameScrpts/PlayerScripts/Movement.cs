@@ -5,7 +5,6 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public float speed = 15.0f;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -22,5 +21,6 @@ public class Movement : MonoBehaviour
         GetComponent<Animator>().SetFloat("yInput", yInput);
         Vector2 moveDir = new Vector2(xInput, yInput);
         GetComponent<Rigidbody2D>().velocity = moveDir * speed;
-    }
+    } 
+
 }
