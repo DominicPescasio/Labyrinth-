@@ -48,4 +48,6 @@ public class PlayerHealth : MonoBehaviour
 
         healthBar.SetHealth(currentHealth);
     }
+
+
 }
