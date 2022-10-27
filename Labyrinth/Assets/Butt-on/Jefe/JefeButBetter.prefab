@@ -14,8 +14,12 @@ GameObject:
   - component: {fileID: 9042802657432658407}
   - component: {fileID: 9042802657432658401}
   - component: {fileID: 9042802657432658403}
+<<<<<<< Updated upstream
   - component: {fileID: 7516949979383722918}
   - component: {fileID: 4570215265769425445}
+=======
+  - component: {fileID: 3889873863139482762}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: JefeButBetter
   m_TagString: Untagged
@@ -159,7 +163,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+<<<<<<< Updated upstream
 --- !u!60 &7516949979383722918
+=======
+--- !u!60 &3889873863139482762
+>>>>>>> Stashed changes
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,6 +192,7 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
+<<<<<<< Updated upstream
     - - {x: -0.109375, y: -0.0625}
       - {x: -0.109375, y: -0.25}
       - {x: -0.078125, y: -0.375}
@@ -202,3 +211,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94e05ebf7b7ed354b902b0b1020e1abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+    - - {x: 0.08095193, y: 0.30506015}
+      - {x: -0.07581854, y: 0.30506018}
+      - {x: -0.12678611, y: 0.30327404}
+      - {x: -0.10602772, y: -0.36116105}
+      - {x: -0.08913708, y: -0.36294717}
+      - {x: 0.07581854, y: -0.35833418}
+      - {x: 0.08631027, y: -0.35937506}
+      - {x: 0.08631015, y: 0.3051307}
+>>>>>>> Stashed changes
