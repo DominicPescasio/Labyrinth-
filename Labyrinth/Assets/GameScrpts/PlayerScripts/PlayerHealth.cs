@@ -49,5 +49,19 @@ public class PlayerHealth : MonoBehaviour
         healthBar.SetHealth(currentHealth);
     }
 
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        string otherTag = collision.gameObject.tag;
+        if (otherTag == "Damage")
+        { 
+            if (currentHealth <= 0)
+            {
+                Scene scene = SceneManager.GetActiveScene();
+                SceneManager.LoadScene(scene.name);
+            }
+        }
+    }
 }
+
+
+

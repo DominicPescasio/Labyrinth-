@@ -45,6 +45,7 @@ public class PauseMenu : MonoBehaviour
 
     public void RestartGame()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Tutorial");
     }
 
