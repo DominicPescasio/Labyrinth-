@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Testing/TransitionTester.unity
     guid: 0bed960944e55f346b9a29aaac5ba30a
+  - enabled: 0
+    path: Assets/Scenes/GameLevels/Level_2.unity
+    guid: 9d01cba58409f6a4b8e953143307a42a
   - enabled: 1
     path: Assets/Scenes/UIScreens/DieScreen.unity
     guid: 4c455bd11fb09534284d1f864ebb2012
@@ -26,9 +29,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameLevels/Level_1.unity
     guid: 0ad4080c6bc6c9448987dcf35834dfaf
-  - enabled: 1
-    path: Assets/Scenes/GameLevels/Level_2.unity
-    guid: 9d01cba58409f6a4b8e953143307a42a
   - enabled: 1
     path: Assets/Scenes/GameLevels/Level_3.unity
     guid: 890515b0b3c37824fa82f00bdd8f0881
