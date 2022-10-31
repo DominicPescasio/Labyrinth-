@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Scenes/UIScreens/WinScreen.unity
     guid: 6af34174fb002be46898ff6c928f9aae
   - enabled: 1
-    path: Assets/Scenes/UIScreens/EndCredits.unity
+    path: Assets/Scenes/UIScreens/Credits.unity
     guid: 3d25bfee2fdc4ae4ea2569d78b4d6480
   - enabled: 1
     path: Assets/Scenes/UIScreens/DieScreen.unity
